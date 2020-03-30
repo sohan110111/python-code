@@ -19,5 +19,21 @@ print(list_in_different_data_types[3])
 names = ["Joe", "John", "James"]
 print(names)
 
-names.append("Doe")
+#names.append("Doe")
+names.insert(0, "insertElementAdded")
 print(names)
+names.remove(names[0]) # remove first element of the list
+print(names)
+names.remove("John") #remove the individual element of the list
+print(names)
+
+reverseCheck = [1, 2, 3, 4, 5]
+reverseCheck.reverse()
+print(reverseCheck)
+
+numbers = [4, 2, 6, 8, 2, 7, 8]
+numbers.sort()
+print(numbers)
+
+for number in numbers :
+    print(number)
