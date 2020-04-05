@@ -21,7 +21,8 @@ print(digits[::2]) # output = [0, 2, 4, 6, 8]; here show element first index and
 print(digits[::-1]) # output = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]; It go from the end of the list (backward=decending of the list of the element)
 print(digits[::-2])  #output = [9, 7, 5, 3, 1];
 print(digits[::-3])  #output = [9, 6, 3, 0];
-print(digits[0:5:-2]) #output = [5, 4, 3, 2, 0]
+#print(digits[0:5:-2]) #output = [5, 4, 3, 2, 0]
+
 for i in range(len(digits)) :
     print(digits[0:i])
 for i in range(len(digits)) :
