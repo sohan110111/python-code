@@ -16,3 +16,9 @@
     # orderedDict
 # most things are mutable
 # this allow for flexible data
+
+t = (1, 2, [1, 2, 3])
+print(t) # output = (1, 2, [1, 2, 3])
+
+t[2][0] = 7
+print(t) # output = (1, 2, [7, 2, 3])
